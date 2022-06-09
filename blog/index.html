@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+html, body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.screen
+{ display: flex;
+    background-image: url(https://avatanplus.com/files/resources/mid/5ab67f8c8b94016258e23d1c.png);
+    height: 100%;
+    background-color: red;
+    background-size: 1920px 1080px;
+}
+.menu_bar
+{
+    
+    font-size: 2.5rem;
+    display: flex;
+}
+.left_bar
+{
+    background-color: rgb(15, 119, 154);
+    width: 10%;
+}
+.right_bar
+{
+    background-color: rgb(150, 70, 186);
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_btn
+{
+    background-color: orange;
+    margin: 0 10px;
+}
+.sub_menu
+{
+    display: none;
+    position: absolute;
+    background-color: green;
+}
+.menu_btn:last-of-type > .sub_menu
+{
+    right: 0;
+}
+.menu_btn:hover > .sub_menu
+{
+    display: block;
+}
+.sub_menu_btn
+{
+    white-space: nowrap;
+}
+/*---------------------------------------*/
+/*Auth*/
+.screen
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth_container
+{
+    width: 500px;
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+   
+    border-radius: 200 px;
+    padding: 40px;
+    
+}
+input
+{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.auth_type
+{
+    font-size: 3rem;
+}
+.user
+{
+    width:500px;
+    background-color: beige;
+    font-size: 30px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="menu_bar">
+            <div class="left_bar">
+                Logo
+            </div>
+            <div class="right_bar">
+                
+            </div>
+        </div>
+        <div class="screen">
+            <div class="auth_container">
+                <div class="auth_type"> Sign Up </div>
+                <form action="" method="post">
+                    <input type="text" name="email" />
+                    <input type="password" name="password" />
+                    <input type="submit" value="Sign Up" />
+                </form>
+            </div-->
+            <auth>
+            <posts>
+        </div>
+    </body>
+</html>
